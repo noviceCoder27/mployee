@@ -1,10 +1,36 @@
+# Mployee
+A static webpage
 
-  # Mployee.new (Copy) (Copy)
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+Follow these steps to run the project:
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm run dev` to view project in browser
-  
+
+1. **Clone the Repository**
+   Clone the project repository to your local machine. Replace `<url>` with the URL of your repository.
+   ```
+   git clone <url>
+   ```
+
+2. **Navigate to the Project Directory**
+   Change your current directory to the project's directory.
+   ```
+   cd <repository-name>
+   ```
+
+3. **Install Dependencies**
+   Install the project dependencies for both client and server using `npm`.
+   ```
+   npm install
+   ```
+
+
+4. **Run the Project**
+   Finally, run the project.
+   ```
+   npm run start
+   ```
+
+
+
+That's it! Your project should now be running.
+
