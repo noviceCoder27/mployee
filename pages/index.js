@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 
 const Home = () => {
   return (
-    <div className="w-full relative rounded-3xl box-border overflow-hidden flex flex-col items-start justify-start pt-[0.875rem] px-[0rem] pb-[0rem] leading-[normal] tracking-[normal] border-[1px] border-solid border-gainsboro-100">
+    <div className="w-full relative box-border overflow-hidden flex flex-col items-start justify-start pt-[0.875rem] px-[0rem] pb-[0rem] leading-[normal] tracking-[normal]">
       <img
         className="w-[0.063rem] h-[62.188rem] relative hidden z-[1]"
         src="/vector-11.svg"
