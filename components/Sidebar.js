@@ -7,8 +7,9 @@ import {useState} from 'react';
 const Sidebar = () => {
     const [toggle,setToggle] = useState(false);
     const [option,setOption] = useState({design: true, web: false, analyst: false,lorem: false});
+    
     return (
-        <form className="flex flex-col items-start self-stretch justify-start m-0" onSubmit = {(e) => {e.preventDefault()}}>
+        <form className="flex flex-col items-start self-stretch justify-start m-0" onSubmit = {(e) => {e.preventDefault()}} >
             <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem]">
                 <button className="cursor-pointer [border:none] p-0 bg-white self-stretch flex flex-col items-start justify-start">
                     <div className="self-stretch rounded-lg bg-white flex flex-row items-center justify-start py-[0.625rem] pr-[1.812rem] pl-[1rem] font-semibold">
@@ -37,7 +38,7 @@ const Sidebar = () => {
                 <div className={`self-stretch cursor-pointer rounded-lg  overflow-x-auto flex flex-row items-start justify-start py-[0.625rem] px-[1rem] gap-[0.75rem] ${toggle && "bg-gray-100"}`} onClick = {() => setToggle(prev => !prev)}>
                     <img
                         className="h-[1.25rem] w-[1.25rem] relative shrink-0 min-h-[1.25rem]"
-                        src="/vuesaxlinearreceiptadd.svg"
+                        src={toggle ? "/vuesaxlinearreceiptadd.svg":"/black.svg"}
                     />
                     <div className={`w-[9.5rem] shrink-0 flex flex-col items-start justify-start pt-[0.187rem] pb-[0rem] pr-[1.25rem] pl-[0rem] box-border font-semibold cursor-pointer`}>
                         <div className={`h-[0.875rem] relative text-[0.875rem] leading-[1.2rem] font-noto-sans text-left inline-block min-w-[4.438rem] ${toggle && "text-white"}`}>

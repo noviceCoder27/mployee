@@ -4,8 +4,8 @@ import JobPost from "./JobPost"
 
 const JobListings = () => {
   return (
-    <section className="w-full bg-whitesmoke-100 overflow-y-auto flex items-start justify-start pt-[2rem] px-[1.5rem] pb-[1.812rem] box-content max-w-[calc(100%_-_289px)] text-left text-[1.125rem] text-black font-noto-sans lg:pt-[1.313rem] lg:pb-[1.25rem] lg:max-w-[calc(100%_-_27px)] mq450:h-auto">
-        <div className=" overflow-x-hidden flex-1 rounded-t-xl rounded-b-none bg-white box-border overflow-y-auto flex flex-col items-start justify-start pt-[1.5rem] px-[1.187rem] gap-[0.812rem] max-w-full border-[1px] border-solid border-gainsboro-300 lg:box-border mq450:h-auto  mq450:box-border mq1500:pt-[1.313rem] mq1500:box-border">
+    <section className="w-full bg-whitesmoke-100 overflow-y-auto flex items-start justify-start pt-[2rem] px-[1.5rem] pb-[1.812rem] box-content max-w-[calc(100%_-_289px)] text-left text-[1.125rem] text-black font-noto-sans lg:pt-[1.313rem] lg:pb-[1.25rem] lg:max-w-[calc(100%_-_27px)] mq450:h-auto" style = {{borderTop: "2px solid #E8E7EC",borderLeft: "2px solid #E8E7EC"}}>
+        <div className=" overflow-x-hidden flex-1 rounded-xl  bg-white box-border overflow-y-auto flex flex-col items-start justify-start pt-[1.5rem] px-[1.187rem] gap-[0.812rem] max-w-full border-[1px] border-solid border-gainsboro-300 lg:box-border mq450:h-auto  mq450:box-border mq1500:pt-[1.313rem] mq1500:box-border">
             <div className="relative inline-block min-w-[4.688rem] shrink-0 [debug_commit:1de1738]">
                 Jobs (44)
             </div>
