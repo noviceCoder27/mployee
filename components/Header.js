@@ -22,7 +22,7 @@ const Header = () => {
             </div>
           </button>
         </div>
-        <nav className="m-0 w-[32.875rem] flex flex-col items-start justify-start pt-[0.75rem] pb-[0rem] pr-[1.687rem] pl-[0rem] box-border max-w-full mq825:w-[1.688rem] mq1500:hidden">
+        <nav className="m-0 w-[32.875rem] flex flex-col items-start justify-start pt-[0.75rem] pb-[0rem] pr-[1.687rem] pl-[0rem] box-border max-w-full mq825:w-[1.688rem] mq1200:hidden">
           <nav className="m-0 self-stretch flex flex-row items-start justify-start gap-[1.981rem] text-left text-[1rem] text-gray-200 font-sans mq825:hidden mq825:gap-[1rem]">
             <div className="flex-1 flex flex-col items-start justify-start pt-[0.125rem] px-[0rem] pb-[0rem]">
               <div className="h-[1rem] cursor-pointer relative leading-[1.367rem] inline-block min-w-[7.938rem] whitespace-nowrap">
